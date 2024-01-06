@@ -37,7 +37,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 313px;
+    width: 60vh;
     height: auto;
 }
 
@@ -80,6 +80,18 @@ body {
     background-color: gainsboro;
 }
 
+@media only screen and (max-width: 950px) {
+    .container {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .box {
+        width: 30vw;
+        height: 30vw;
+        font-size: 8vmin;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .container {
         width: 100%;
@@ -93,6 +105,30 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .box {
+        width: 30vw;
+        height: 30vw;
+        font-size: 8vmin;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .box {
+        width: 30vw;
+        height: 30vw;
+        font-size: 8vmin;
+    }
+}
+
+@media only screen and (max-width: 200px) {
     .container {
         width: 100%;
         margin-left: 20px;
